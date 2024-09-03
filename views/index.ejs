@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Upload and Process File</title>
+    </head>
+
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            display: grid;
+            place-items: center;
+        }
+    </style>
+
+    <body>
+        <h3>Single File Uploading</h3>
+        <form action="/api/single" method="post" enctype="multipart/form-data">
+            <input type="file" name="singleFile" required="true" multiple="false" id="">
+            <input type="submit" name="" id="" value="Upload">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "file_upload_and_process_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main/main.js",
+    "dev": "nodemon src/main/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
